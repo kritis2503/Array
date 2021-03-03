@@ -10,6 +10,7 @@ public class lec01{
                 arr[start]=arr[end];
                 arr[end]=temp;
                 start++;
+                System.out.println("l");
                 end--;
             }
             if(arr[start]>0)
